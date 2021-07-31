@@ -1,0 +1,49 @@
+.postContainer {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.postContainer h2 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 35px;
+}
+
+.postContainer input {
+    font-size: 17px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    font-weight: 300;
+    outline: none;
+}
+
+.postContainer input:focus {
+    outline: 2px;
+    outline-style: solid;
+    outline-color: rgba(21, 169, 255, 0.753);
+}
+
+.btns {
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.postContainer button {
+    background: #03a9f4;
+    font-size: 13px;
+    padding: 10px;
+    color: #fff;
+    margin: 10px 5px;
+    outline: none;
+    border: 1px solid #1faff1;
+    cursor: pointer;
+}
+
+.postContainer select {
+    font-size: 20px;
+    margin-top: 10px;
+}
